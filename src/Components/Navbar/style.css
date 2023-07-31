@@ -1,0 +1,48 @@
+ .navbar{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    background-color: darkslategrey;
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+    
+}
+.search-bar{
+   font-display: 12px;
+   border-radius: 34%;
+   background-color:yellow ;
+   
+ } 
+.BTN{
+    background-color: yellow;
+    padding: 23px;
+    border-radius: 60px;
+   
+}
+.search{
+   
+    margin-right: 90px;
+    border-radius: 34%;
+
+}
+.input{
+    border-radius: 20px;
+ } 
+ .search-results{
+    margin: auto;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    
+ }
+ .search-result{
+    width: 30%;
+    
+ }
+
+
+
+
+ 
